@@ -101,3 +101,45 @@ h1 {
   margin-top: 16px;
   margin-bottom: 24px;
 }
+
+/*task four*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+
+.login-form label {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.login-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
