@@ -135,6 +135,7 @@ h1 {
 .login-form button {
   border-radius: 8px;
   padding: 8px 16px;
+  margin-top: 16px;
   width: 86px;
   height: 40px;
   background: #4e75ff;
@@ -142,4 +143,37 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
+}
+
+/*task five*/
+.widget {
+  border-radius: 8px;
+  padding: 100px 88px 100px 88px;
+  margin: 50px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.widget p {
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
