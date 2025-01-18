@@ -177,3 +177,56 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
 }
+
+/*task six*/
+#controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 32px;
+  background: #f6f6fe;
+  width: 486px;
+  gap: 16px;
+  margin: 24px 24px 16px 24px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  tex-alling: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  font: 500 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-two {
+  background: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 8px;
+  padding: 32px;
+  background: #f6f6fe;
+  width: 486px;
+  gap: 10px;
+  margin: 0 24px 24px 24px;
+}
